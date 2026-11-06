@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="#F5F7FB">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:padding="22dp" android:orientation="vertical">
+<TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="OFFICE SPACE BOOKING" android:textColor="#2563EB" android:textSize="13sp" android:textStyle="bold" android:layout_marginBottom="9dp"/>
+<TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Manager Login" android:textColor="#0F172A" android:textSize="25sp" android:textStyle="bold" android:layout_marginBottom="5dp"/>
+<TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Manager access to office room bookings" android:textColor="#64748B" android:textSize="14sp" android:textStyle="normal" android:layout_marginBottom="25dp"/>
+<EditText android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Username" android:singleLine="true" android:textSize="15sp" android:padding="14dp" android:background="@drawable/ui_card" android:layout_marginBottom="12dp"/>
+<EditText android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Password" android:singleLine="true" android:textSize="15sp" android:padding="14dp" android:background="@drawable/ui_card" android:layout_marginBottom="12dp"/>
+<Button android:layout_width="match_parent" android:layout_height="52dp" android:text="Log in" android:textAllCaps="false" android:textColor="#FFFFFF" android:backgroundTint="#2563EB" android:layout_marginTop="8dp" android:layout_marginBottom="8dp"/>
+    </LinearLayout>
+</ScrollView>
