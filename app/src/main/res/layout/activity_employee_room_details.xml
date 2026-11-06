@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="#F5F7FB">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:padding="22dp" android:orientation="vertical">
+<TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="OFFICE SPACE BOOKING" android:textColor="#2563EB" android:textSize="13sp" android:textStyle="bold" android:layout_marginBottom="9dp"/>
+<TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Room Details" android:textColor="#0F172A" android:textSize="25sp" android:textStyle="bold" android:layout_marginBottom="5dp"/>
+<TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Review the selected office space" android:textColor="#64748B" android:textSize="14sp" android:textStyle="normal" android:layout_marginBottom="25dp"/>
+<TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Meeting Room 1" android:textColor="#1D4ED8" android:textSize="15sp" android:gravity="center_vertical" android:padding="16dp" android:minHeight="56dp" android:background="@drawable/ui_card" android:layout_marginBottom="12dp"/>
+<TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Type: Meeting Room" android:textColor="#1D4ED8" android:textSize="15sp" android:gravity="center_vertical" android:padding="16dp" android:minHeight="56dp" android:background="@drawable/ui_card" android:layout_marginBottom="12dp"/>
+<TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Availability: Available" android:textColor="#1D4ED8" android:textSize="15sp" android:gravity="center_vertical" android:padding="16dp" android:minHeight="56dp" android:background="@drawable/ui_card" android:layout_marginBottom="12dp"/>
+<TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Selected date: 12 Nov 2026" android:textColor="#1D4ED8" android:textSize="15sp" android:gravity="center_vertical" android:padding="16dp" android:minHeight="56dp" android:background="@drawable/ui_card" android:layout_marginBottom="12dp"/>
+<TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Time: 10:00 – 11:00" android:textColor="#1D4ED8" android:textSize="15sp" android:gravity="center_vertical" android:padding="16dp" android:minHeight="56dp" android:background="@drawable/ui_card" android:layout_marginBottom="12dp"/>
+<Button android:layout_width="match_parent" android:layout_height="52dp" android:text="Request This Room" android:textAllCaps="false" android:textColor="#FFFFFF" android:backgroundTint="#2563EB" android:layout_marginTop="8dp" android:layout_marginBottom="8dp"/>
+    </LinearLayout>
+</ScrollView>

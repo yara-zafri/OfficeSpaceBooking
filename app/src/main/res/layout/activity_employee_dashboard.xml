@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="#F5F7FB">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:padding="22dp" android:orientation="vertical">
+<TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="OFFICE SPACE BOOKING" android:textColor="#2563EB" android:textSize="13sp" android:textStyle="bold" android:layout_marginBottom="9dp"/>
+<TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Employee Dashboard" android:textColor="#0F172A" android:textSize="25sp" android:textStyle="bold" android:layout_marginBottom="5dp"/>
+<TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Find and manage office spaces" android:textColor="#64748B" android:textSize="14sp" android:textStyle="normal" android:layout_marginBottom="25dp"/>
+<TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="5 Meeting Rooms  •  2 Seminar Rooms" android:textColor="#1D4ED8" android:textSize="15sp" android:gravity="center_vertical" android:padding="16dp" android:minHeight="56dp" android:background="@drawable/ui_card" android:layout_marginBottom="12dp"/>
+<TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Quick Actions" android:textColor="#1E293B" android:textSize="18sp" android:textStyle="bold" android:layout_marginBottom="8dp"/>
+<Button android:layout_width="match_parent" android:layout_height="52dp" android:text="Find Available Rooms" android:textAllCaps="false" android:textColor="#FFFFFF" android:backgroundTint="#2563EB" android:layout_marginTop="8dp" android:layout_marginBottom="8dp"/>
+<Button android:layout_width="match_parent" android:layout_height="52dp" android:text="My Bookings" android:textAllCaps="false" android:textColor="#FFFFFF" android:backgroundTint="#2563EB" android:layout_marginTop="8dp" android:layout_marginBottom="8dp"/>
+<TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Upcoming Reservation" android:textColor="#1E293B" android:textSize="18sp" android:textStyle="bold" android:layout_marginBottom="8dp"/>
+<TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Meeting Room 2  |  12 Nov, 10:00–11:00
+Status: Pending" android:textColor="#1D4ED8" android:textSize="15sp" android:gravity="center_vertical" android:padding="16dp" android:minHeight="56dp" android:background="@drawable/ui_card" android:layout_marginBottom="12dp"/>
+    </LinearLayout>
+</ScrollView>
